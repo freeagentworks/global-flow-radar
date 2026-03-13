@@ -1,0 +1,125 @@
+@import "tailwindcss";
+
+/* ============================================
+ * Global Flow Radar - デザインシステム
+ * 07_ui-wireframe.md 準拠のカラーパレット
+ * ============================================ */
+
+@theme inline {
+  /* フォント */
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-jetbrains-mono);
+
+  /* ダークテーマ（デフォルト） */
+  --color-bg-primary: #0D1117;
+  --color-bg-secondary: #161B22;
+  --color-bg-card: #1C2128;
+  --color-border: #30363D;
+
+  --color-text-primary: #E6EDF3;
+  --color-text-secondary: #8B949E;
+  --color-text-muted: #484F58;
+
+  /* セマンティックカラー */
+  --color-inflow: #00C853;
+  --color-inflow-light: #00E676;
+  --color-outflow: #FF1744;
+  --color-outflow-light: #FF5252;
+  --color-neutral: #448AFF;
+  --color-warning: #FFC107;
+
+  /* セクターカラー */
+  --color-sector-tech: #7C4DFF;
+  --color-sector-healthcare: #00BCD4;
+  --color-sector-financials: #FF9800;
+  --color-sector-energy: #F44336;
+  --color-sector-consumer-disc: #E91E63;
+  --color-sector-consumer-staples: #8BC34A;
+  --color-sector-industrials: #795548;
+  --color-sector-materials: #607D8B;
+  --color-sector-utilities: #FFEB3B;
+  --color-sector-real-estate: #009688;
+  --color-sector-communication: #3F51B5;
+
+  /* 地域カラー */
+  --color-region-us: #448AFF;
+  --color-region-japan: #FF1744;
+  --color-region-europe: #00C853;
+  --color-region-china: #FFC107;
+  --color-region-emerging: #E91E63;
+  --color-region-others: #9E9E9E;
+
+  /* レイアウト */
+  --sidebar-width: 240px;
+  --sidebar-collapsed-width: 64px;
+}
+
+/* ライトテーマ */
+.light {
+  --color-bg-primary: #FFFFFF;
+  --color-bg-secondary: #F6F8FA;
+  --color-bg-card: #FFFFFF;
+  --color-border: #D0D7DE;
+
+  --color-text-primary: #1F2328;
+  --color-text-secondary: #656D76;
+  --color-text-muted: #8C959F;
+}
+
+/* ベーススタイル */
+html {
+  color-scheme: dark;
+}
+
+html.light {
+  color-scheme: light;
+}
+
+body {
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+/* 数値表示用のモノスペースフォント */
+.font-mono-number {
+  font-family: var(--font-mono), monospace;
+  font-weight: 500;
+}
+
+/* スクロールバーのカスタマイズ（ダークテーマ用） */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-text-muted);
+}
+
+/* フォーカスインジケーター（アクセシビリティ） */
+:focus-visible {
+  outline: 2px solid var(--color-neutral);
+  outline-offset: 2px;
+}
+
+/* スケルトンローダーのアニメーション */
+@keyframes skeleton-pulse {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 0.8; }
+}
+
+.skeleton {
+  animation: skeleton-pulse 1.5s ease-in-out infinite;
+  background-color: var(--color-bg-card);
+  border-radius: 8px;
+}
