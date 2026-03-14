@@ -1,0 +1,55 @@
+{
+  "common": {
+    "appName": "Global Flow Radar",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "lastUpdated": "Last Updated",
+    "noData": "No data available"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "map": "Flow Map",
+    "sectors": "Sectors",
+    "assetClasses": "Asset Classes",
+    "etfTracker": "ETF Tracker",
+    "history": "Historical",
+    "alerts": "Alerts",
+    "about": "About"
+  },
+  "theme": {
+    "dark": "Dark",
+    "light": "Light"
+  },
+  "dashboard": {
+    "title": "Today's Fund Flow Overview",
+    "marketSummary": "Market Summary",
+    "miniMap": "Mini World Map",
+    "sectorHeatmap": "Sector Heatmap",
+    "topInflows": "Top 5 Inflows",
+    "topOutflows": "Top 5 Outflows",
+    "latestAlerts": "Latest Alerts",
+    "viewFullMap": "View Full Map"
+  },
+  "periods": {
+    "1d": "1D",
+    "1w": "1W",
+    "1m": "1M",
+    "3m": "3M",
+    "6m": "6M",
+    "1y": "1Y",
+    "5y": "5Y"
+  },
+  "flows": {
+    "inflow": "Inflow",
+    "outflow": "Outflow",
+    "netFlow": "Net Flow",
+    "flowScore": "Flow Score",
+    "strongInflow": "Strong Inflow",
+    "strongOutflow": "Strong Outflow",
+    "neutral": "Neutral"
+  },
+  "footer": {
+    "disclaimer": "Information on this site does not constitute investment advice. Please make investment decisions at your own risk."
+  }
+}

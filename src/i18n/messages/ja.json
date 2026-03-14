@@ -1,0 +1,55 @@
+{
+  "common": {
+    "appName": "Global Flow Radar",
+    "loading": "読み込み中...",
+    "error": "エラーが発生しました",
+    "retry": "再試行",
+    "lastUpdated": "最終更新",
+    "noData": "データがありません"
+  },
+  "nav": {
+    "dashboard": "ダッシュボード",
+    "map": "フローマップ",
+    "sectors": "セクター",
+    "assetClasses": "資産クラス",
+    "etfTracker": "ETFトラッカー",
+    "history": "ヒストリカル",
+    "alerts": "アラート",
+    "about": "概要"
+  },
+  "theme": {
+    "dark": "ダーク",
+    "light": "ライト"
+  },
+  "dashboard": {
+    "title": "本日の資金フロー概況",
+    "marketSummary": "マーケットサマリー",
+    "miniMap": "ミニ世界地図",
+    "sectorHeatmap": "セクターヒートマップ",
+    "topInflows": "資金流入 Top5",
+    "topOutflows": "資金流出 Top5",
+    "latestAlerts": "最新アラート",
+    "viewFullMap": "フルマップを見る"
+  },
+  "periods": {
+    "1d": "1日",
+    "1w": "1週間",
+    "1m": "1ヶ月",
+    "3m": "3ヶ月",
+    "6m": "6ヶ月",
+    "1y": "1年",
+    "5y": "5年"
+  },
+  "flows": {
+    "inflow": "流入",
+    "outflow": "流出",
+    "netFlow": "純フロー",
+    "flowScore": "フロースコア",
+    "strongInflow": "強い流入",
+    "strongOutflow": "強い流出",
+    "neutral": "中立"
+  },
+  "footer": {
+    "disclaimer": "本サイトの情報は投資助言ではありません。投資判断はご自身の責任で行ってください。"
+  }
+}
